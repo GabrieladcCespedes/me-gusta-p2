@@ -1,0 +1,53 @@
+/*Gabriela Céspedes*/
+
+/*centra todo el contenido de la pagina*/
+#conteiner{
+    display: flex;
+    justify-content: center;
+}
+/*centra el titulo*/
+.title{
+    text-align: center;
+}
+/*se cambia el color de fondo y de fuente del encabezado*/
+.encabezado{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+/*se defien el tamaño de la imagen*/
+.user{
+    width: 200px;
+}
+/*centra el texto, define un tamaño y un borde para el bloque*/
+.block-1{
+    text-align: center;
+    width: 200px;
+    border: 2px solid black;
+}
+
+/*se define un tamaño, un bordde para el bloque */
+.block-a, .block-b, .block-c{
+    width: 250px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+/*se ubica el contenido de line*/
+.line{
+    display: flex;
+    justify-content: space-between;
+
+}
+/*se cambia el color del boton, se le coloca una sombra y tambien el tamaño*/
+.btn{
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
+    box-shadow: 3px 3px black;
+}
+/*los bloques block-1 y block-2 se alinean un al lado del otro*/
+.block-1, .block-2{
+    display: inline-block;
+    vertical-align: top;
+}

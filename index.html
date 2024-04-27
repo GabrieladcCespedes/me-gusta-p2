@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Gusta PII</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="conteiner">
+        <div>
+            <h1 class="encabezado">Network</h1>
+        <h1 class="title">Your Feed</h1>
+        <!--block contiene a block-1 y block-2 -->
+        <div id="block">
+            <!--block-1 contiene el bloque del user-->
+            <div class="block-1">
+                <img src="user.jpg" alt="user" class="user">
+                <a href="add">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+            <!--block-2 contiene a block-a, block-b y block-c-->
+            <div class="block-2">
+                <!--block-a-->
+                <div class="block-a">
+                    <!--line1 contiene un h1,p y button-->
+                    <div class="line">
+                        <h2>Neil M</h2>
+                        <p class="like1">0 like(s)</p>
+                        <button class="btn" onclick="likes(0)">Like</button>
+                    </div>
+                    <!---->
+                    <div>
+                        <p>I just set uo this discord bot, let me know what you all think.
+                            <a href="link">link</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!--block-b-->
+                <div class="block-b">
+                    <!--line1 contiene un h1,p y button-->
+                    <div class="line">
+                        <h2>Nichole K</h2>
+                        <p class="like2">0 like(s)</p>
+                        <button class="btn" onclick="likes(1)">Like</button>
+                    </div>
+                    <!---->
+                    <div>
+                        <p>Just finished my <a href="next">next comic</a>, check it out</p>
+                    </div>
+                </div>
+
+                <!--block-c-->
+                <div class="block-c">
+                    <!--line1 contiene un h1,p y button-->
+                    <div class="line">
+                        <h2>Jim R</h2>
+                        <p class="like3">0 like(s)</p>
+                        <button class="btn" onclick="likes(2)">Like</button>
+                    </div>
+                    <!---->
+                    <div>
+                        <p>I can't stop listening to the <a href="new">new album</a> 
+                        Who else is liking it?</p>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
